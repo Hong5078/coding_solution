@@ -1,0 +1,18 @@
+--Feb 11 2025--
+
+D1:
+    Duplicate Case Handle 1:
+    In the for loop, if the current number is the same as the previous number, 
+    skip the iteration until a different number appears.
+
+D2:
+    Duplicate Case Handle 2:
+    To prevent duplicate triplets, skip repeated values for either j or k 
+    until a different number appears. 
+    You only need to handle either j or k, not both.
+
+    while nums[j] == nums[j - 1] and j < k:
+        j += 1  # Skip duplicate values for j
+
+    while j < k and nums[k] == nums[k + 1]:
+        k -= 1  # Skip duplicate values for k
