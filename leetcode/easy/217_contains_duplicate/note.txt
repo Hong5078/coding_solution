@@ -1,0 +1,4 @@
+--Feb 12 2025--
+
+Brutal solution, slow runtime.
+Dictionary method. Return False, if items(count) in each key bigger than 1.
